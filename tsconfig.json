@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"lib": ["ESNext", "DOM"],
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "commonjs",
+		"rootDir": "./src",
+		"moduleResolution": "node",
+		"baseUrl": "./src",
+		"paths": {
+			"@src/*": ["./*"],
+			"@math/*": ["./math/*"]
+		},
+		"allowJs": true,
+		"outDir": "dist",
+		"removeComments": true,
+		"newLine": "lf",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"useUnknownInCatchVariables": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"skipLibCheck": true,
+		"typeRoots": ["./node_modules/@types", "./src/types"]
+	},
+	"include": ["./src/**/*.ts"],
+	"exclude": ["node_modules", "dist", "__tests__", "coverage"]
+}
