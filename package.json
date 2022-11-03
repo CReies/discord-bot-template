@@ -1,11 +1,11 @@
 {
-	"name": "node-template",
+	"name": "discord-bot-template",
 	"version": "1.0.0",
-	"description": "My personal configuration to init a Node project",
-	"main": "./src/index.ts",
+	"description": "Discord js v14 bot template",
+	"main": "./src/bot.ts",
 	"scripts": {
 		"start:dev": "nodemon",
-		"start:prod": "node -r ts-node/register/transpile-only -r tsconfig-paths/register ./dist/src/index.js",
+	"start:prod": "node -r ts-node/register/transpile-only -r tsconfig-paths/register ./dist/src/bot.js",
 		"build": "tsc -p tsconfig.prod.json",
 		"test": "jest",
 		"test:watch": "jest --watch",
@@ -16,7 +16,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/CReies/Node-Template.git"
+		"url": "https://github.com/CReies/discord-bot-template.git"
 	},
 	"dependencies": {
 		"debug": "4.3.4",

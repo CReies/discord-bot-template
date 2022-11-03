@@ -2,7 +2,7 @@ import 'dotenv-safe/config';
 import add from '@math/add';
 import createDebug from 'debug';
 
-const log = createDebug('Index');
+const log = createDebug('bot');
 log.enabled = true;
 
 log(process.env.NAME);
