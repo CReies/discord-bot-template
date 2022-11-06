@@ -2,6 +2,7 @@
 	"name": "discord-bot-template",
 	"version": "1.0.0",
 	"description": "Discord js v14 bot template",
+	"type": "module",
 	"main": "./src/bot.ts",
 	"scripts": {
 		"start:dev": "nodemon",
