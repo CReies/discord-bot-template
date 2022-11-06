@@ -5,8 +5,8 @@
 	"type": "module",
 	"main": "./src/bot.ts",
 	"scripts": {
-		"start:dev": "nodemon",
-		"start:prod": "node -r ts-node/register/transpile-only -r tsconfig-paths/register ./dist/src/bot.js",
+		"dev": "nodemon",
+		"run": "node -r ts-node/register/transpile-only -r tsconfig-paths/register ./dist/bot.js",
 		"build": "tsc -p tsconfig.prod.json",
 		"test": "jest",
 		"test:watch": "jest --watch",
