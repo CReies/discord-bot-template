@@ -9,8 +9,10 @@
 		"moduleResolution": "node",
 		"baseUrl": "./src",
 		"paths": {
-			"@src/*": ["./*"],
-			"@math/*": ["./math/*"]
+			"@handlers/*": ["./handlers/*"],
+			"@classes/*": ["./classes/*"],
+			"@commands/*": ["./commands/*"],
+			"@events/*": ["./events/*"],
 		},
 		"allowJs": true,
 		"outDir": "dist",

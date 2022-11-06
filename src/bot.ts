@@ -1,9 +1,8 @@
 import 'dotenv-safe/config';
-import add from '@math/add';
+import ExtendedClient from '@classes/Client';
 import createDebug from 'debug';
 
 const log = createDebug('bot');
 log.enabled = true;
 
-log(process.env.NAME);
-log(add(1, 2));
+new ExtendedClient().start();
