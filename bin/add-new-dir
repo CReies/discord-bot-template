@@ -11,4 +11,3 @@ pathJest="\\\t\t'$1\/(.*)': '<rootDir>/src/$1/\$1',"
 
 mkdir "./src/$1"
 sed "/\"@src/ a $pathTs" -i ./tsconfig.json
-sed "/src\/(.*)/ a $pathJest" -i ./jest.config.ts
