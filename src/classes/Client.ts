@@ -11,6 +11,7 @@ class ExtendedClient extends Client<true> {
 	public constructor() {
 		/* https://discord-intents-calculator.vercel.app/ */
 		super({ intents: 37631 });
+
 	}
 
 	public commands = new Collection<string, CommandBuilder>();
@@ -20,6 +21,7 @@ class ExtendedClient extends Client<true> {
 		await eventHandler(this);
 		await this.login();
 		log('Client started');
+
 	}
 }
 
